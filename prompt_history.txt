@@ -1,0 +1,13 @@
+Based on an example file, this is what I have so far: ... But the last input, 'want to see the updated database?', doesn't get printed. It just exits. Why?
+
+Can you show me what I'd need to do to only have unique rows added?
+
+Is this line correct for filtering by a user-provided continent: rows = cur.execute("SELECT * FROM flags WHERE continent = userContinent").fetchall()
+
+I have this code ... for filtering by continent, but I want to allow filtering for multiple colors or just one. Is it possible to filter by one color and give back all flags that just include that color? For example, if the user types 'red', they'll get all the flags that have 'red' in their comma-separated string, but not necessarily just red
+
+I have one color search working, what would I need to allow for multiple color searching?
+
+Can you verify that my color search is working? (Here, Gemini suggested I change my input method to be inside of a while loop and add a safeguard for non-int inputs for int attributes)
+
+I wrote this update code using f strings, but that is disallowed. I don't understand how it in this case to avoid using f strings: ...
