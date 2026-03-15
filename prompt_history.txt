@@ -1,4 +1,4 @@
-I used Gemini Pro and gave it the prompts below, as well as Github Copilot's built in suggestions for repeated code chunks and CLI print statements.
+I used exampleCode.py found in Week 8 at https://www.cs.cmu.edu/~113/#schedule as a reference, Gemini Pro with the prompts below, as well as Github Copilot's built-in suggestions for repeated code chunks and CLI print statements.
 
 Based on an example file, this is what I have so far to create a CRUD flag database: ... But the last input, 'want to see the updated database?', doesn't get printed. Why?
 
