@@ -248,3 +248,5 @@ while True:
 
     else:
         print('\nSorry, that is not a valid action. Please try again.')
+
+con.close()
