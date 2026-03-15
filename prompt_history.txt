@@ -1,4 +1,6 @@
-Based on an example file, this is what I have so far: ... But the last input, 'want to see the updated database?', doesn't get printed. It just exits. Why?
+I used Gemini Pro and gave it the prompts below, as well as Github Copilot's built in suggestions for repeated code chunks and CLI print statements.
+
+Based on an example file, this is what I have so far to create a CRUD flag database: ... But the last input, 'want to see the updated database?', doesn't get printed. Why?
 
 Can you show me what I'd need to do to only have unique rows added?
 
